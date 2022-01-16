@@ -7,6 +7,7 @@ import static org.example.BasePage.driver;
 import static org.example.Utils.getTextFromElement;
 
 public class RegistrationResultPage{
+    By _getText = By.xpath("//div[@class='result']");
     public void verifyUserIsOnRegistrationSuccessPage()
     {
         //verify user is on registration success page
@@ -15,7 +16,7 @@ public class RegistrationResultPage{
     public void userIsSuccessfullyRegister()
     {
         //store actual result
-        String actualRegisterSuccessMessage = getTextFromElement(By.xpath("//div[@class='result']"));
+        String actualRegisterSuccessMessage = getTextFromElement(_getText);
         //Store expected result
         String expectedRegisterSuccessMessage ="Your registration completed";
         //Compare actual result and expected result

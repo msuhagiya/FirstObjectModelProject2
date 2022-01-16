@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="62283" started-at="2022-01-15T16:29:57 GMT" finished-at="2022-01-15T16:30:59 GMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="62283" started-at="2022-01-15T16:29:57 GMT" finished-at="2022-01-15T16:30:59 GMT">
+      <class name="org.example.TestSuite">
+        <test-method status="PASS" signature="setBrowserManager()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="setBrowserManager" is-config="true" duration-ms="7156" started-at="2022-01-15T16:29:57 GMT" finished-at="2022-01-15T16:30:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserManager -->
+        <test-method status="PASS" signature="toVerifyRegisterUserShouldBeAbleToReferAProductToFriend()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="toVerifyRegisterUserShouldBeAbleToReferAProductToFriend" duration-ms="14847" started-at="2022-01-15T16:30:04 GMT" finished-at="2022-01-15T16:30:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyRegisterUserShouldBeAbleToReferAProductToFriend -->
+        <test-method status="PASS" signature="tearDownBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuite@7b49cea0]" name="tearDownBrowser" is-config="true" duration-ms="1425" started-at="2022-01-15T16:30:19 GMT" finished-at="2022-01-15T16:30:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyRegisterUserShouldBeAbleToReferAProductToFriend status=SUCCESS method=TestSuite.toVerifyRegisterUserShouldBeAbleToReferAProductToFriend()[pri:0, instance:org.example.TestSuite@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="setBrowserManager()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="setBrowserManager" is-config="true" duration-ms="5713" started-at="2022-01-15T16:30:20 GMT" finished-at="2022-01-15T16:30:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserManager -->
+        <test-method status="PASS" signature="toVerifyUserShouldBeAbleToNavigateToDesktopPage()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="toVerifyUserShouldBeAbleToNavigateToDesktopPage" duration-ms="3258" started-at="2022-01-15T16:30:26 GMT" finished-at="2022-01-15T16:30:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserShouldBeAbleToNavigateToDesktopPage -->
+        <test-method status="PASS" signature="tearDownBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuite@7b49cea0]" name="tearDownBrowser" is-config="true" duration-ms="2317" started-at="2022-01-15T16:30:29 GMT" finished-at="2022-01-15T16:30:32 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserShouldBeAbleToNavigateToDesktopPage status=SUCCESS method=TestSuite.toVerifyUserShouldBeAbleToNavigateToDesktopPage()[pri:0, instance:org.example.TestSuite@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="setBrowserManager()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="setBrowserManager" is-config="true" duration-ms="6277" started-at="2022-01-15T16:30:32 GMT" finished-at="2022-01-15T16:30:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserManager -->
+        <test-method status="PASS" signature="toVerifyUserShouldBeAbleToPostNewCommentOnNewsDetailPage()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="toVerifyUserShouldBeAbleToPostNewCommentOnNewsDetailPage" duration-ms="4046" started-at="2022-01-15T16:30:38 GMT" finished-at="2022-01-15T16:30:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserShouldBeAbleToPostNewCommentOnNewsDetailPage -->
+        <test-method status="PASS" signature="tearDownBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuite@7b49cea0]" name="tearDownBrowser" is-config="true" duration-ms="2252" started-at="2022-01-15T16:30:42 GMT" finished-at="2022-01-15T16:30:44 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserShouldBeAbleToPostNewCommentOnNewsDetailPage status=SUCCESS method=TestSuite.toVerifyUserShouldBeAbleToPostNewCommentOnNewsDetailPage()[pri:0, instance:org.example.TestSuite@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="setBrowserManager()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="setBrowserManager" is-config="true" duration-ms="5846" started-at="2022-01-15T16:30:44 GMT" finished-at="2022-01-15T16:30:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserManager -->
+        <test-method status="PASS" signature="toVerifyUserShouldBeAbleToRegisterSuccessfully()[pri:0, instance:org.example.TestSuite@7b49cea0]" name="toVerifyUserShouldBeAbleToRegisterSuccessfully" duration-ms="6974" started-at="2022-01-15T16:30:50 GMT" finished-at="2022-01-15T16:30:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserShouldBeAbleToRegisterSuccessfully -->
+        <test-method status="PASS" signature="tearDownBrowser(org.testng.ITestResult)[pri:0, instance:org.example.TestSuite@7b49cea0]" name="tearDownBrowser" is-config="true" duration-ms="2135" started-at="2022-01-15T16:30:57 GMT" finished-at="2022-01-15T16:30:59 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserShouldBeAbleToRegisterSuccessfully status=SUCCESS method=TestSuite.toVerifyUserShouldBeAbleToRegisterSuccessfully()[pri:0, instance:org.example.TestSuite@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- org.example.TestSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

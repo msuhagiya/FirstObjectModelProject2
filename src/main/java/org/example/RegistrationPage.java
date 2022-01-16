@@ -11,6 +11,12 @@ public class RegistrationPage extends Utils{
     By _passwordField = By.id("Password");
     By _confirmPassword =By.id("ConfirmPassword");
     By _clickOnRegistrationButton = By.id("register-button");
+    By _birthDay = By.name("DateOfBirthDay");
+    By _birthMonth = By.name("DateOfBirthMonth");
+    By _birthYear = By.name("DateOfBirthYear");
+
+
+    LoadProp loadProp = new LoadProp();
 
     public void verifyUserIsOnRegistrationPage()
     {
@@ -20,20 +26,23 @@ public class RegistrationPage extends Utils{
     public void userEntersRegistrationDetails()
     {
         //enter the first name
-        typeText(_firstNameField, "Navya");
+        typeText(_firstNameField,loadProp.getProperty("firstName"));
 
         //enter the lastname
-        typeText(_lastNameField, "Patel");
+        typeText(_lastNameField,loadProp.getProperty("lastName"));
 
         //Enter day of birth
-        Select selectDay = new Select(driver.findElement(By.name("DateOfBirthDay")));
-        selectDay.selectByVisibleText("21");
+        doSelectByVisibleText(_birthDay,"21");
+       // Select selectDay = new Select(driver.findElement(By.name("DateOfBirthDay")));
+        //selectDay.selectByVisibleText("21");
         //Enter month of birth
-        Select selectMonth = new Select(driver.findElement(By.name("DateOfBirthMonth")));
-        selectMonth.selectByValue("6");
+        doSelectByValue(_birthMonth,"6");
+        //Select selectMonth = new Select(driver.findElement(By.name("DateOfBirthMonth")));
+        //selectMonth.selectByValue("6");
         //Enter year of birth
-        Select selectYear = new Select(driver.findElement(By.name("DateOfBirthYear")));
-        selectYear.selectByValue("2021");
+        doSelectByValue(_birthYear,"2013");
+       // Select selectYear = new Select(driver.findElement(By.name("DateOfBirthYear")));
+       // selectYear.selectByValue("2021");
 
         //Enter email address
         typeText(_emailField, "def+" + currentTimeStamp() + "@gmail.com");
